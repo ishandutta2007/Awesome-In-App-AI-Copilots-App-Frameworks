@@ -20,6 +20,8 @@ A curated list of top in-app AI copilots, embeddable agentic UI frameworks, gene
 
 
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
@@ -42,29 +44,29 @@ A curated list of top in-app AI copilots, embeddable agentic UI frameworks, gene
 
 
 
+---
+
+## Sector Overview & Market Dynamics
+
+The global conversational AI and in-app AI copilot market is estimated at approximately $14 billion to $17 billion in 2025, expanding at a CAGR of ~22-24%. The sector exhibits a distinct bifurcated market dynamic: it is **highly concentrated** at the foundation model and enterprise core tier (dominated by hyperscalers and established suite incumbents like Salesforce, Zendesk, and Microsoft), yet **highly fragmented** across the application and embeddable UI copilot layer where fast-moving startups and open-source frameworks continuously emerge to serve specialized domain workflows.
+
+---
+
 ## SaaS/Hosted Platforms
-
-
 
 Commercial, cloud-hosted AI copilot platforms, managed agent builders, proprietary browser extensions, and enterprise conversational SaaS tools.
 
-
-
-* **[CopilotKit Cloud](https://copilotkit.ai)** - Managed cloud infrastructure and hosted runtime for embedding in-app AI copilots, agentic state sync, and generative UI into React apps.
-
-* **[Superpower ChatGPT](https://superpowerdaily.com)** - Commercial browser extension enhancing web AI interfaces with prompt chains, folder organization, custom profiles, and history search.
-
-* **[Dify Cloud](https://dify.ai)** - Fully managed LLMOps platform for visually orchestrating RAG pipelines, AI agents, and production APIs.
-
-* **[Botpress Cloud](https://botpress.com)** - Commercial all-in-one AI agent platform featuring a visual studio, autonomous nodes, and multi-channel deployment.
-
-* **[Flowise Cloud](https://flowiseai.com)** - Hosted cloud service for building and scaling drag-and-drop LLM orchestration flows and multi-agent systems.
-
-* **[Langflow (DataStax Cloud)](https://langflow.org)** - Managed cloud visual framework for prototyping and deploying LangChain/Python-based agentic workflows.
-
-* **[Voiceflow](https://voiceflow.com)** - Collaborative commercial platform for designing, testing, and launching conversational voice and chat AI agents.
-
-* **[Intercom Fin / Zendesk AI](https://intercom.com)** - Proprietary enterprise customer-facing AI copilot platforms embedded directly into SaaS web applications.
+| Company / Product | Valuation / Revenue | Starting Pricing Tier | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Zendesk AI](https://zendesk.com)** | Valuation: ~$10.2B (take-private) / Revenue: ~$2.0B ARR | $55/agent/month (Suite Team) + $1.50–$2.00 per automated resolution | 14-day free trial (Suite Professional tier features; includes baseline 5 automated AI resolutions per agent) | Enterprise customer service platform with built-in AI copilot, omnichannel routing, and autonomous resolution agents. |
+| **[Intercom Fin](https://intercom.com)** | Valuation: ~$3.6B (acquired by Salesforce) / Revenue: ~$400M ARR | $29/seat/month (Essential plan) + $0.99 per successful Fin AI outcome | 14-day free trial (full access to core platform features and unlimited Fin AI resolution outcomes during the 14 days) | Leading customer-facing AI agent and copilot embedded directly into web apps to handle support tickets and resolutions. |
+| **[Langflow (DataStax / IBM)](https://langflow.org)** | Valuation: ~$1.6B (DataStax peak prior to IBM acquisition) / Revenue: ~$240M ARR | Free Open-Source self-hosted ($0); cloud enterprise managed via IBM / Astra DB | Free forever via self-hosted MIT open-source software (unlimited local pipelines/nodes; self-provided LLM API keys) | Visual framework and orchestrator for prototyping, fine-tuning, and deploying LangChain/Python-based multi-agent workflows. |
+| **[Flowise Cloud](https://flowiseai.com)** | Valuation: Acquired by Workday ($500K YC seed; ~$1M ARR prior to exit) | $35/month (Starter tier) | Free forever plan: 2 flows, 2 assistants, 100 predictions/month, and 5 MB storage | Hosted cloud service for building and scaling drag-and-drop LLM orchestration flows and multi-agent systems. |
+| **[Dify Cloud](https://dify.ai)** | Valuation: ~$180M (Series Pre-A) / Revenue: ~$3.1M ARR | $59/month (Professional plan; or $49.17/mo billed annually) | Free forever Sandbox plan: 200 lifetime message credits, 1 team member, 5 apps, and 50 MB knowledge base storage | Fully managed LLMOps platform for visually orchestrating RAG pipelines, AI agents, and production APIs. |
+| **[Botpress Cloud](https://botpress.com)** | Valuation: ~$120M (Series B) / Revenue: ~$10M ARR | $150/month (Plus plan billed annually; or $189/mo month-to-month) | Free forever tier: 100 monthly conversations, up to 3 bots/agents, 3 team seats, and base AI studio access | Commercial all-in-one AI agent platform featuring a visual studio, autonomous nodes, and multi-channel deployment. |
+| **[Voiceflow](https://voiceflow.com)** | Valuation: ~$105M (Series A/Financing) / Revenue: ~$30M ARR | $60/month (Pro tier) | Free forever Starter plan: 100 non-renewing lifetime credits, 1 editor seat, 2 project agents (testing/prototype use only) | Collaborative commercial platform for designing, prototyping, and deploying conversational voice and chat AI agents. |
+| **[CopilotKit Cloud](https://copilotkit.ai)** | Valuation: ~$100M–$250M (Series A) / Revenue: Early commercial (F500 contracts) | $49/month (Pay-As-You-Go developer tier) | Free forever Developer edition: 1 seat, non-production prototyping, 200 threads, 3-day retention, and 1 GB storage | Managed cloud infrastructure and hosted runtime for embedding in-app AI copilots, agentic state sync, and generative UI into React apps. |
+| **[Superpower ChatGPT](https://superpowerdaily.com)** | Valuation: Bootstrapped / Independent ($15/mo Pro tier) | $15/month (or $10/month billed annually) | Free forever extension plan: capped at 5 folders, 5 saved prompts, and 2 custom instruction profiles | Commercial browser extension enhancing web AI interfaces with prompt chains, folder organization, custom profiles, and history search. |
 
 
 
